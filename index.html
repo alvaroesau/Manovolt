@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MANOVOLT - Servicios Eléctricos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0c1e2c;
+      color: #ffffff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #0c1e2c;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fcd000;
+    }
+    .logo span {
+      margin-left: 10px;
+      color: white;
+    }
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 700px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    .servicios {
+      background-color: #f8f8f8;
+      color: #000;
+      padding: 40px;
+    }
+    .servicios h2 {
+      color: #fcd000;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .zona {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .whatsapp {
+      margin-top: 30px;
+    }
+    .whatsapp a {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      header, .hero, .servicios {
+        padding: 20px;
+      }
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">⚡<span>MANOVOLT</span></div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>Conectamos tu hogar con seguridad y confianza</h1>
+    <p>Soy técnico electricista con más de <strong>9 años de experiencia</strong> y actualmente cursando Ingeniería Eléctrica. Mi misión es ofrecerte soluciones eléctricas seguras, confiables y duraderas, desde instalaciones básicas hasta proyectos completos.</p>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Instalación de lámparas, focos, tomacorrientes y apagadores</li>
+      <li>Mantenimiento y corrección de fallas eléctricas</li>
+      <li>Instalación de tableros y protecciones</li>
+      <li>Cableado residencial y comercial</li>
+      <li>Revisión de cortocircuitos y sobrecargas</li>
+      <li>Asesoría para nuevos proyectos</li>
+    </ul>
+    <div class="zona">Zonas de trabajo: El Salvador</div>
+
+    <div class="whatsapp" id="contacto">
+      <a href="https://wa.me/50374656746" target="_blank">Contactar por WhatsApp</a>
+    </div>
+  </section>
+</body>
+</html>
